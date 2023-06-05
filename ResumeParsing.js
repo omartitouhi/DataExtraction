@@ -17,7 +17,7 @@ const options = {
     method: 'POST',
     url: 'https://api.edenai.run/v2/ocr/resume_parser',
     headers:{
-        authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjFlMGIxNTctOGE1Mi00MmM2LWFhZjUtNTc2YzEyOWE2OGZkIiwidHlwZSI6ImFwaV90b2tlbiJ9.ZvE-PLQdwyeB-cx2sjX4JM69xaZVvZ4F6IOqjmT1uqs',
+        authorization: 'Bearer API_KEY',
         'Content-Type': `multipart/form-data; boundary=${form.getBoundary()}`
     },
     data: form
